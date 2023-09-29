@@ -43,6 +43,7 @@ function App() {
             value={password}
             placeholder="Password"
             readOnly
+            ref={passwordRef}
           />
           <button
             onClick={handleCopy}
